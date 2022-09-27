@@ -1,0 +1,158 @@
+.background{
+    background-image:url(../images/LET´S\ CREATE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: fixed;
+    height: 60.5em;
+
+}
+.addRecipe{
+    font-family: 'Lora', serif;
+}
+.nameInput{
+    margin-bottom: 10px;
+}
+.addRecipe{
+    margin-top: -30px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+.prettierForm {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: space-around;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.goBackButton {
+
+    background-color: #fff;
+    border-color: #fff;
+    color: #12100E;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin-left: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.goBackButton:hover {
+    color: #fff;
+    background-color: #EDB634;
+}
+
+.submitButton {
+    background-color: #fff;
+    border-color: #fff;
+    color: #12100E;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin-left: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+
+.submitButton:hover {
+    color: #fff;
+    background-color: #EDB634;
+}
+
+.msg {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    font-size: 50px;
+    font-weight: 600;    
+
+}
+
+.msgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 3px;
+    color: #000000;
+    font-weight: 800;    
+    text-transform: uppercase;  
+
+}
+
+
+.nameInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 10px;
+    
+}
+
+.dietTypes {
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+
+
+}
+
+.checks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1px;
+}
+
+.errors {
+    font-family: sans-serif;    
+    color: #ff1a0a;
+    font-size:12px;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    position: absolute;
+}

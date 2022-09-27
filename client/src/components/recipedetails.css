@@ -1,0 +1,112 @@
+.backButton {
+    color: #12100E;
+    background-color: #fff;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    color:#fff;
+    background-color:#EDB634;
+    border-color:#EDB634;
+}
+
+.details {
+    margin: 40px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.detailName{
+    margin-top: -30px;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+
+}
+.texts {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #EDB634;
+    font-weight: 400; 
+    font-size: 20px;     
+    display: flex;
+    text-transform: uppercase;
+}
+
+.divimg {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: right;
+    align-items: right;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.detailImg {
+    display: flex;
+    width: 400px;
+    height: 250px;
+    border-radius: 25px;
+;
+
+}
+
+.ddsh {
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+
+}
+
+.dishesanddiets {
+    display: flex;
+    flex-direction: column;  
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    border-radius: 3px;
+    color: #12100E;
+    text-transform: uppercase;
+    
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    color: #EDB634;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.summary {
+    text-align: justify;
+    padding-left: 10px;
+    color: #12100E;
+    font-weight: 500;
+}
+
+.steps {
+    padding-left: 10px;
+    text-align: justify;
+    list-style: none;
+    color:#12100E;
+    font-weight: 500;
+}

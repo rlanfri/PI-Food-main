@@ -1,0 +1,48 @@
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px 5px;
+    width: 500px;
+
+}
+
+.pages {
+    /* padding: 1px 300px;
+    display: flex;
+    
+    flex-direction: row;    */
+    display: flex;
+	height: 30px;
+    list-style-type:none;
+    justify-content: center;
+	padding: 0 20px 4px;
+	border-radius: 7px;
+	
+}
+
+.page {
+    list-style-type:none;   
+}
+
+.pageBtn {
+    cursor: pointer;
+    display: flex;    
+    justify-content: center;
+	background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font-weight: 700;    
+    border-radius: 7px;
+    height: 30px;    
+	font-size: 15px;	
+	line-height: 25px;
+    font-weight: 600;
+    transition: 0.3ms;
+} 
+.pageBtn:hover {
+    background-color: #EDB634;
+    color: #fff;
+
+}
+
+

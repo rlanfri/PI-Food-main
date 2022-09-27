@@ -1,0 +1,108 @@
+
+  .logo {
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  /* ------------------------ TEXT */
+  .landing-page-left {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    position: fixed;
+    padding: 30px;
+    
+  }
+  .text {
+    color: #12100E;
+    font-size: 25px;
+    
+  }
+  .text h1 {
+    margin-top: 30%;
+    padding: 0px;
+    font-size: 100px;
+  }
+  .text p {
+    font-size: 35px;
+    margin-left: 5px;
+    margin-top: 0px;
+    color: #12100E;
+    font-family: 'Lora';
+
+  }
+  .text h5 {
+    font-size: 20px;
+    margin-left: 7px;
+    margin-top: 0px;
+
+  }
+
+  /* ------------------------------- DISH */
+  .landing-page-right {
+    display: flex;
+    z-index: -1;
+  }
+  .landing-page-right img {
+    margin-left: 70%;
+    max-width: 100%;
+    max-height: 90%;
+    display: flex;
+  }
+  .landing-img {
+    width: 1100px;
+    position: fixed;
+  }
+  .landingRotate {
+    animation: rotation 6s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+  /* ----------------------------------button */
+.homeButton{
+  position: absolute;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #EDB634;
+  border-color: #fff;
+  font-size: 20px;
+
+  text-align: center;
+  padding: 10px 25px;
+  margin-left: 235px;
+  margin-top: -150px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.4s
+}
+.homeButton:hover {
+  color:#F3EEE5;
+  background-color:#12100E;
+}
+.footer{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #EDB634;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lora'; 
+}

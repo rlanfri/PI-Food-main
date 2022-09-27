@@ -1,0 +1,10 @@
+body{
+font-family: 'Sora';
+margin: 0px;
+padding: 0px;
+min-height: 100vh;
+max-width: 100vw;
+
+position: relative;
+padding-bottom: 3em;
+}
